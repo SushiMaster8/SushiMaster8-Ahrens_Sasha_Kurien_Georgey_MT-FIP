@@ -28,6 +28,45 @@
 						</ul>
 				</nav>
 			</div>
+
+			<div class="contactContent">
+				<div id="formsAddress">
+					<div id="contact-form">
+						<h3 class="hidden">Form</h3>
+							<form action="form.php" method="post">
+								<label for="name">Name: (required)</label>
+								<input type="text" required id="name" placeholder="Enter your full name">
+								<br>
+								<label for="email">Email:</label>
+								<input type="email" required id="email" placeholder="Enter your email">
+								<br>
+								<label for="phone">Phone: (required)</label>
+								<input type="tel" required id="phone" placeholder="Enter your Cell">
+								<br>
+								<label for="comments">Comments</label>
+								<br>
+								<textarea id="comments" required></textarea>
+								<br>
+								<input type="submit" value="Submit">
+							</form>
+					</div>
+
+					<div id="building">
+						<h3 class="hidden">Address</h3>
+							<ul>
+								<li>Molson Brewery,</li>
+								<li>Toronto, ON, Canada.</li>  
+								<li>M9W 5E5</li>
+							</ul>
+					</div>
+				</div>
+
+				<div id="map">
+						<h3 class="hidden">Map</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5865104.122766808!2d-82.8975306793031!3d44.12832708557866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b39b8c2493a99%3A0x3432891614c5108c!2sMolson!5e0!3m2!1sen!2sca!4v1612838102953!5m2!1sen!2sca" width="410" height="336" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+						</iframe>
+				</div>
+			</div>
 			<section class="footer">
 				<div class="bottomNav">
 					<h2 class="hidden">bottomNav</h2>
