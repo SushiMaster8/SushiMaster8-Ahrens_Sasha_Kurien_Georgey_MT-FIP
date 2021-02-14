@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'archivo_blackregular';
+    src: url('../fonts/archivoblack-regular-webfont.woff2') format('woff2'),
+         url('../fonts/archivoblack-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .hidden
 {
 	display: none;
@@ -36,7 +45,7 @@
 {
 	text-decoration: none;
 	color: #F6E516;
-	font-family: 'Archivo Black', 'Times', sans-serif;
+	font-family: 'archivo_blackregular', 'Times', sans-serif;
 	font-size: 20px;
 }
 
@@ -129,7 +138,7 @@
 .bottomNav
 {
 	color: #F6E516;
-	font-family: 'Archivo Black', 'Times', sans-serif;
+	font-family: 'archivo_blackregular', 'Times', sans-serif;
 	font-size: 20px;
 	font-style: italic;
 }
@@ -153,7 +162,7 @@
 	display: flex;
 	margin-left: 625px;
 	margin-bottom: 0px;
-	font-family: 'Archivo Black', 'Times', sans-serif;
+	font-family: 'archivo_blackregular', 'Times', sans-serif;
 	font-size: 22px;
 	color: #F6E516;
 
@@ -290,7 +299,7 @@
 #building li
 {
 	color: #F6E516;
-	font-family: 'Archivo Black', 'Times', sans-serif;
+	font-family: 'archivo_blackregular', 'Times', sans-serif;
 	font-size: 18px;
 	font-style: italic;
 	text-align: center;
