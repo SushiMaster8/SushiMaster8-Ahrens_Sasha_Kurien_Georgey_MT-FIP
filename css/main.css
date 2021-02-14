@@ -180,13 +180,90 @@
 	background-color: #dbe3e1;
 }
 
-.contactContent
+#contactForm
 {
 	display: flex;
 	flex-direction: row;
+	margin-left: 35px;
+	margin-top: 50px;
+}
+
+#contact-form
+{
+	font-family: 'Gadugi', 'Times', sans-serif;
+	background-color: #e82225;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+#contact-form label
+{
+	color: #ffffff;
+}
+
+.name
+{
+	width: 550px;
+	border-radius: 5px;
+	background-color: #F6E516;
+}
+
+.emailFull
+{
+	margin-top: 20px;
+}
+
+.Email
+{
+	width: 550px;
+	border-radius: 5px;
+	background-color: #F6E516;
+}
+
+.telePhone
+{
+	width: 400px;
+	margin-left: 25px;
+	border-radius: 5px;
+	background-color: #F6E516;
+}
+
+.phoneFull
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.commentS
+{
+	width: 550px;
+	height: 200px;
+	resize: none;
+	border-radius: 5px;
+	background-color: #F6E516;
+}
+
+.formButton
+{
+	margin-left: 200px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 40px;
+	width: 100px;
+	background-color: #F6E516;
+	cursor: pointer;
+}
+
+.contactContent
+{
+	display: flex;
+	flex-direction: column;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 }
 
@@ -198,14 +275,31 @@
 #map
 {
 	display: flex;
-	margin-left: 300px;
 	
 }
 
-#building
+#building 
 {
+	margin-top: 20px;
+	width: 410px;
+	height: 100px;
+	background-color: #e82225;
+	border-radius: 10px;
+}
 
-	margin-top: 20px;	
+#building li
+{
+	color: #F6E516;
+	font-family: 'Archivo Black', 'Times', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	margin-right: 50px;
+}
+
+#building ul
+{
+	list-style-type: none;
 }
 
 
