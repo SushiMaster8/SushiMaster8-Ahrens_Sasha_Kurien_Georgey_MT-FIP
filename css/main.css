@@ -158,11 +158,13 @@
 
 /* Caption text */
 .text {
-  color: #000000;
-  font-size: 15px;
+  font-family: 'Gadugi', 'Times', 'Arial', sans-serif;
+  color: #f2f2f2;
+  font-size: 20px;
+  font-style: italic;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 1px;
   width: 100%;
   text-align: center;
 }
@@ -229,6 +231,20 @@
 {
 	margin-bottom: 30px;
 }
+
+.newsletter
+{
+	width: 100%;
+	height: auto;
+}
+
+.craft
+{
+	width: 100%;
+	height: auto;
+}
+
+
 .videos
 {
 	display: flex;
@@ -282,11 +298,21 @@
 	font-style: italic;
 	line-height: 20px;
 	margin-top: 15px;
+	margin-right: 10px;
 }
 
 .bottomNav ul
 {
 	list-style-type: none;
+}
+
+
+.socialmedia
+{
+	position: absolute;
+	right: 0;
+	padding-left: 10px;
+	padding-right: 5px;
 }
 
 .socials
@@ -307,10 +333,33 @@
 	text-align: center;
 }
 
+.facebook
+{
+	max-width: 50px;
+	height: auto;
+}
+
 .twitter
 {
 	margin-left: 15px;
 	margin-right: 15px;
+	max-width: 50px;
+	height: auto;
+}
+
+.instagram
+{
+	max-width: 50px;
+	height: auto;
+}
+
+.credits
+{
+	display: flex;
+	font-family: 'Gadugi', 'Times', sans-serif;
+	text-align: center;
+	font-size: 8px;
+	color: black;
 }
 
 /*STORE PAGE*/
@@ -327,6 +376,8 @@
 #products img
 {
 	border-radius: 10px;
+	height: auto;
+	width: 100%;
 }
 
 .image1
@@ -666,13 +717,11 @@
 {
 	display: flex;
 	margin-top: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 .cheers
 {
-	max-width: 100%;
+	max-width: 97%;
 	margin-left: 10px;
 	margin-right: 10px;
 	height: auto;
@@ -681,7 +730,12 @@
 .textBox 
 {
   position: absolute;
-  width: 250px;
+  width: 50%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-top: 120px;
+  text-align: center;
   background-color: #000000B3;
   font-size: 20px;
   font-family: 'Gadugi', 'Times', sans-serif;
@@ -745,7 +799,7 @@
 }
 
 
-/*MOBILE EDIT*/
+/*DESKTOP EDIT*/
 
 @media screen and (min-width: 641px) {
 
@@ -856,8 +910,10 @@
 
 /* Caption text */
 .text {
+  font-family: 'Gadugi', 'Times', 'Arial', sans-serif;
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 40px;
+  font-style: italic;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -929,6 +985,18 @@
 	margin-right: 150px;
 }
 
+.newsletter
+{
+	width: 450px;
+	height: 300px;
+}
+
+.craft
+{
+	width: 450px;
+	height: 300px;
+}
+
 .videos
 {
 	display: flex;
@@ -949,6 +1017,8 @@
 {
 	display: flex;
 	flex-direction: column;
+	height: auto;
+	width: 100%;
 }
 
 .video1 p
@@ -991,19 +1061,26 @@
 	list-style-type: none;
 }
 
+.socialmedia
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 55px;
+}
+
 .socials
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-left: 600px;
+	margin-left: 525px;
 	margin-top: 15px;
 }
 
 .socialsHead
 {
 	display: flex;
-	margin-left: 625px;
+	margin-left: 525px;
 	margin-bottom: 0px;
 	font-family: 'archivo_blackregular', 'Times', sans-serif;
 	font-size: 22px;
@@ -1011,12 +1088,34 @@
 
 }
 
+.facebook
+{
+	width: 100%;
+	height: auto;
+}
+
 .twitter
 {
 	margin-left: 30px;
 	margin-right: 30px;
+	width: 100%;
+	height: auto;
 }
 
+.instagram
+{
+	width: 100%;
+	height: auto;
+}
+
+.credits
+{
+	display: flex;
+	font-family: 'Gadugi', 'Times', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
 
 /*STORE PAGE*/
 #products
@@ -1033,6 +1132,8 @@
 #products img
 {
 	border-radius: 10px;
+	width: 450px;
+	height: 300px;
 }
 
 .row1
@@ -1179,8 +1280,8 @@
 .johnM
 {
 	margin-top: 50px;
-	width: 600px; 
-	height: 350px;
+	width: 500px; 
+	height: 300px;
 }
 
 .history1 p
@@ -1420,9 +1521,11 @@
 .textBox 
 {
   position: absolute;
-  margin-top: 275px;
-  margin-left: 275px;
-  margin-right: 200px;
+  width: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 250px;
   background-color: #000000B3;
   font-size: 50px;
   font-family: 'Gadugi', 'Times', sans-serif;
@@ -1444,7 +1547,7 @@
 
 .benefitsHead
 {
-	margin-left: 100px;
+	text-align: center;
 	font-family: 'Gadugi', 'Times', sans-serif;
 	font-size: 45px;
 	font-weight: bold;
@@ -1453,7 +1556,7 @@
 
 .benefitsHead2
 {
-	margin-left: 350px;
+	text-align: center;
 	font-family: 'Gadugi', 'Times', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
